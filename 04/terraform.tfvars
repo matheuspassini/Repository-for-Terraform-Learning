@@ -1,0 +1,9 @@
+vpc_name = "vpc1"
+subnet_name = "subnetwork"
+region = "us-central1"
+zone = "us-central1-a"
+vm = ["vm1", "vm2"]
+machine_type = "e2-micro"
+disk_name = ["disk1","disk2"]
+firewall_name = "firewall"
+bootdisk = ["debian-cloud/debian-9", "debian-cloud/debian-10"]
