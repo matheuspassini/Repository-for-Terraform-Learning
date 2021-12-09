@@ -13,6 +13,5 @@ resource "google_compute_instance" "vm" {
 
   network_interface {
     network = var.network
-    subnetwork = var.subnetwork
   }
 }

@@ -27,8 +27,3 @@ variable "network" {
   type        = string
   default     = "default"
 }
-
-variable "subnetwork" {
-  type = string
-  default = "default"
-}
